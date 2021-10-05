@@ -1,0 +1,42 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <button onclick="renkDegisim()">Renk Değiştir</button>
+        <div id="renkDIV" style="width:100px; height:100px; background-color:red">
+
+        </div>
+        <hr />
+        <button onclick="hareket()">120 px Aşağıya kaydır</button>
+        <div id="hareketDIV" style="position:absolute; top:0px; left:150px; width:100px; height:100px; background-color:orange">
+
+        </div>
+    </div>
+    <hr />
+    <button onclick="inputTXT()">input text ekleme</button>
+    <input id="txt" type="text" value="" />
+    <hr />
+    <button onclick="divTXT()">div text ekleme</button>
+    <div id="txtDIV" style="width:100px; height:100px; background-color:red; color:white">
+
+    </div>
+    <hr />
+    <button onclick="divHTML()">div text ekleme</button>
+    <div id="htmlDIV" style="width:100px; height:100px; background-color:red; color:white">
+
+    </div>
+
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/islemler.js"></script>
+</body>
+</html>
